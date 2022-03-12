@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            font: bold 18px 'Fira Code';
+            background-color: rgb(152, 124, 230);
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        div>h2 {
+            text-align: center;
+        }
+
+        p#result {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Eventos DOM</h1>
+    <div id="area">Interaja</div><br>
+    <hr>
+    <div>
+        <h2>Somando Valores</h2>
+        <input type="number" name="txtn1" id="inputN1"> +
+        <input type="number" name="txtn2" id="inputN2">
+        <input type="button" value="Somar" id="btnSoma" onclick="somar()">
+        <p id="result"></p>
+    </div>
+
+    <script src="eventosDOM.js"></script>
+</body>
+
+</html>

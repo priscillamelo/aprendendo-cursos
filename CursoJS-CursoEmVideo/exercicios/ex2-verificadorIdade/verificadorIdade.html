@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<br>
+
+<header>
+    <h1>Verificador de Idade</h1>
+</header>
+<section>
+    <div>
+        <p>Ano de nascimento: <input type="number" name="txtAno" id="txtAno"></p>
+        <p>
+            Sexo:
+            <input type="radio" name="valueSexo" id="masc">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="valueSexo" id="fem">
+            <label for="fem">Feminino</label>
+        <p>
+            <input type="button" value="Verificar" id="btnVerificar" onclick="verificarIdade()">
+        </p>
+        </p>
+        <p id="txtDados">Preencha os dados acima para ver o resultado!</p>
+    </div>
+
+    <div id="respostaIdade"> </div>
+</section>
+
+<footer>
+    <p>Desenvolvido por Priscilla Melo</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
