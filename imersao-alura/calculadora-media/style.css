@@ -1,0 +1,45 @@
+body {
+  background-color: #5a5e61;
+  color: #0a1829;
+  background-image: url(img/AdobeStock_74464336_Preview.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 8rem;
+  font: bold 32pt "Fira Code";
+}
+
+h2 {
+  font: bolder 24pt "Cambria";
+  text-align: center;
+}
+
+div#card-principal {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  margin: auto;
+  width: 70vw;
+}
+
+input#nota {
+  display: block;
+  margin: 1rem 0 1rem 3.5rem;
+  padding: 4px;
+  font-size: large;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 15pt;
+  margin-left: 1.2rem;
+}
+
+p {
+  font: bold 24pt "Fira Code";
+  padding: 15px 10px;
+  text-align: center;
+}

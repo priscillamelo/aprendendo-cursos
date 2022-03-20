@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Média - Imersão Alura</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Calculadora de Média</h1>
+    <h2>Informe suas notas para saber a média do total</h2>
+    <div id="card-principal">
+        <div id="card-info">
+            <input type="number" name="nota" id="nota" placeholder="Digite a nota...">
+            <button onclick="adicionarNota()" id="incluirNota">Incluir Nota</button>
+            <button onclick="calcularMedia()">Calcular Média</button>
+        </div>
+        <div id="card-result"></div>
+    </div>
+</body>
+
+</html>
